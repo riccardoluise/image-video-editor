@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/image-video-editor/static/css/main.d70e2ede.css",
+    "main.js": "/image-video-editor/static/js/main.c30e453c.js",
+    "static/js/453.ab41effb.chunk.js": "/image-video-editor/static/js/453.ab41effb.chunk.js",
+    "index.html": "/image-video-editor/index.html",
+    "main.d70e2ede.css.map": "/image-video-editor/static/css/main.d70e2ede.css.map",
+    "main.c30e453c.js.map": "/image-video-editor/static/js/main.c30e453c.js.map",
+    "453.ab41effb.chunk.js.map": "/image-video-editor/static/js/453.ab41effb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d70e2ede.css",
+    "static/js/main.c30e453c.js"
+  ]
+}
