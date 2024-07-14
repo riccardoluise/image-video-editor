@@ -1,0 +1,55 @@
+.image-video-editor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    .editor-controls {
+      margin-bottom: 20px;
+    }
+  
+    .file-uploader {
+      margin-bottom: 20px;
+    }
+  
+    .preview {
+      margin-bottom: 20px;
+      img, video {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  
+    .effects-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  
+      button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #45a049;
+        }
+  
+        &.image-effect {
+          background-color: #2196F3;
+          &:hover {
+            background-color: #0b7dda;
+          }
+        }
+  
+        &.video-effect {
+          background-color: #ff9800;
+          &:hover {
+            background-color: #e68a00;
+          }
+        }
+      }
+    }
+  }
